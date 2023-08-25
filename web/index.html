@@ -15,15 +15,15 @@
   <meta name="referrer" content="origin-when-cross-origin" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <title>BingAI - 聊天</title>
-  <div id="google_translate_element"></div>
-
+  <!-- ConveyThis: https://www.conveythis.com/   -->
+<script src="//cdn.conveythis.com/javascript/conveythis-initializer.js"></script>
 <script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'zh'}, 'google_translate_element');
-}
+	document.addEventListener("DOMContentLoaded", function(e) {
+		ConveyThis_Initializer.init({
+			api_key: "pub_97b116d709f272dd3ff62b41efe9863b"
+		});
+	});
 </script>
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <!-- <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
   <script>
     var vConsole = new window.VConsole();
